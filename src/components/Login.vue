@@ -53,13 +53,16 @@
             return{
                 loginForm: {
                     username: 'whc',
-                    password: 'helloworld'
+                    password: '123'
                 }                
             }
         },
          methods: {
             onSubmit() {
-                alert('submit!');
+                this.$router.push({
+                    path: '/navigation',
+                   
+                })
             }
         }
     }
